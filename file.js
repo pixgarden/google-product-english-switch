@@ -1,0 +1,1 @@
+javascript:URI=/[^,]*$/.exec(location.href)[0].split("."); urlfragment="section"; if(URI[1]== "asp"){urlfragment="article";} window.open('http://'+window.location.hostname.replace('www','admin')+'/'+urlfragment+'/edit/id='+URI[0]);
